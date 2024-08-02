@@ -1,0 +1,65 @@
+/* 사이드바 css */
+
+.SideBar {
+    margin: 30px;
+    display: flex;
+    flex-direction: column; /* 자식 요소를 수직으로 배치 */
+    width: 178px;
+    height: 589px;
+    padding: 1rem; /* padding 값을 통합 */
+    justify-content: space-between; /* 자식 요소 사이에 균등한 간격을 설정 */
+    align-items: flex-start; /* 자식 요소를 교차축의 시작점에 정렬 */
+    background-color: #0554F2;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); /* 그림자 설정 */
+}
+
+.Step-Section {
+    display: flex; /* Flexbox를 사용하여 자식 요소를 수평으로 배치 */
+    flex-direction: column; /* 자식 요소를 수직으로 배치 */
+    justify-content: flex-start; /* 자식 요소를 컨테이너의 시작점에 정렬 */
+    list-style: none; /* 리스트 점 없애기 */
+    color: white;
+    font-size: 14pt;
+    padding: 0; /* 리스트 요소의 기본 패딩 제거 */
+}
+
+.Step {
+    padding-top: 50px; /* 상단 패딩 설정 */
+}
+
+.Step-Link {
+    color: white;
+    text-decoration: none; /* 태그 밑줄 지우기 */
+    margin-top: 20px; /* 비율 대신 픽셀 값으로 설정 */
+}
+
+.Num {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%; /* 버튼 원형으로*/
+    margin-right: 20px; /* 오른쪽 여백 설정 */
+    color: black;
+}
+
+/* 페이지 이동버튼 css */
+.Btn-group {
+    height: 50px;
+    width: 600px;
+    position: fixed; /* 뷰포트를 기준으로 위치 조정 */
+    top: 640pt;       /* 뷰포트의 위에서 50px 떨어짐 */
+    left: 1000pt;      /* 뷰포트의 왼쪽에서 20px 떨어짐 */ 
+}
+
+.Page-btn {
+    height: 40px;
+    width: 180%;  
+    margin-right: 20px;
+    background-color: #0554F2;
+    border-radius: 10%; /* 버튼 원형으로*/
+    padding: 20px;
+    color: white;
+    text-decoration: none; /* 태그 밑줄 지우기 */
+    margin-top: 10px; /* 비율 대신 픽셀 값으로 설정 */
+}
+
+/* 버튼이나 링크는 눌렀을때 넘어가지 않도록 비활성화 제어해야할듯, next, back버튼으로만 작동되도록*/
