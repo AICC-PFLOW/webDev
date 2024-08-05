@@ -1,75 +1,23 @@
 import React from 'react';
-import { Route, Routes, NavLink } from 'react-router-dom';
-import './App.css';
-import MainPageDesktop from './component/Navigation';
+import Header from './main/Header';
+import Footer from './main/Footer';
+import './index.css';
+import Resume from './main/Resume';
+import Company from './main/Company';
+import Community from './main/Community';
 
-// function Home() {
-//   return (
-//     <div>
-//       <h2>PFLOW</h2>
-//     </div>
-//   );
-// }
-
-// function Resume() {
-//   return (
-//     <div>
-//       <h2>이력서 작성</h2>
-//     </div>
-//   );
-// }
-
-// function CompanySearch() {
-//   return (
-//     <div>
-//       <h2>회사 검색</h2>
-//     </div>
-//   );
-// }
-
-// function Login() {
-//   return (
-//     <div>
-//       <h2>Login</h2>
-//     </div>
-//   );
-// }
-
-// function CompanyRecommend() {
-//   return (
-//     <div>
-//       <h2>회사 추천</h2>
-//     </div>
-//   );
-// }
-
-// function App() {
-//   return (
-//     <div>
-//       <header>
-//         <ul>
-//           <li><NavLink to="/">PFLOW</NavLink></li>
-//           <li><NavLink to="/resume">이력서 작성</NavLink></li>
-//           <li><NavLink to="/companysearch">회사 검색</NavLink></li>
-//           <li><NavLink to="/companyrecommend">회사 추천</NavLink></li>
-//           <li><NavLink to="/login">Login</NavLink></li>
-//         </ul>
-//       </header>
-//       <Routes>
-//         <Route path="/" element={<Home />} />
-//         <Route path="/resume" element={<Resume />} />
-//         <Route path="/companysearch" element={<CompanySearch />} />
-//         <Route path="/companyrecommend" element={<CompanyRecommend />} />
-//         <Route path="/login" element={<Login />} />
-//         <Route path="/*" element={<div>Not Found</div>} />
-//       </Routes>
-//     </div>
-//   );
-// }
-function App(){
+function App() {
   return (
-    <MainPageDesktop />
-  )
+    <div className='main-container'>
+      <div className='landing-page'>
+        <Header />
+        <Resume />
+        <Company />
+        <Community />
+        <Footer />
+      </div>
+    </div>
+  );
 }
 
 export default App;
