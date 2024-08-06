@@ -13,7 +13,9 @@ function App() {
     <div className='main-container'>
       <div className='landing-page'>
         <Header />
-        <Main />
+        <Resume />
+        <Company />
+        <Community />
         <Footer />
       </div>
     </div>

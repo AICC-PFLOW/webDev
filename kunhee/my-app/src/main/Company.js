@@ -21,11 +21,47 @@ function Company() {
               </div>
             </button>
           </div>
-          <div className='image-container-c' />
+          <div className="image-container-c" />
         </div>
         <div className='content-d'>
           <div className='work-together-image'>
-            {/* Other elements */}
+            <div className='ellipse' />
+            <div className='group-e'>
+              <div className='ellipse-f' />
+            </div>
+            <div className='group-10'>
+              <div className='ellipse-11' />
+            </div>
+            <div className='group-12' />
+            <div className='ellipse-13' />
+            <div className='group-14'>
+              <div className='logo-icon-15'>
+                <div className='group-16'>
+                  <div className='group-17'>
+                    <div className='vector-18' />
+                    <div className='vector-19' />
+                  </div>
+                  <div className='vector-1a' />
+                </div>
+              </div>
+              <div className='rectangle' />
+            </div>
+            <div className='group-1b'>
+              <div className='ellipse-1c' />
+            </div>
+            <div className='group-1d'>
+              <div className='ellipse-1e' />
+            </div>
+            <div className='group-1f'>
+              <div className='ellipse-20' />
+            </div>
+            <div className='group-21' />
+            <div className='group-22'>
+              <div className='ellipse-23' />
+            </div>
+            <div className='group-24'>
+              <div className='ellipse-25' />
+            </div>
           </div>
           <div className='headline-26'>
             <div className='text-block-27'>

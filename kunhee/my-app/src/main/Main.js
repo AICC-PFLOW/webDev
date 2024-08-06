@@ -1,8 +1,5 @@
 import React from "react";
-import { Routes, Route, Link } from "react-router-dom";
-import Resume from "./Resume";
-import Company from "./Company";
-import Community from "./Community";
+import { Link } from "react-router-dom";
 import "./index.css";
 
 function Main() {
