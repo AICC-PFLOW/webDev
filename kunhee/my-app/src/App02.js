@@ -6,17 +6,12 @@ import Resume from "./main/Resume";
 import Company from "./main/Company";
 import Community from "./main/Community";
 import { BrowserRouter } from "react-router-dom";
+import Chatbot from "./main/Chatbot";
 
-function App() {
+function App02() {
   return (
-    <BrowserRouter>
-      <Header />
-      <Resume />
-      <Company />
-      <Community />
-      <Footer />
-    </BrowserRouter>
+    <Chatbot />
   );
 }
 
-export default App;
+export default App02;

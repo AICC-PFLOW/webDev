@@ -1,7 +1,14 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './index.css';
 
 function Company() {
+  const navigate = useNavigate();
+
+  const handleChatbotNavigation = () => {
+    navigate('/chatbot');
+  };
+
   return (
     <div className='work-management'>
       <div className='block-7'>
@@ -14,7 +21,7 @@ function Company() {
                 챗봇 AI로 찾는 나를 위한 회사!
               </span>
             </div>
-            <button className='btn-get-started'>
+            <button className='btn-get-started' onClick={handleChatbotNavigation}>
               <span className='get-started-a'>Get Started</span>
               <div className='icon'>
                 <div className='group-b' />
@@ -72,7 +79,7 @@ function Company() {
                 <br />
               </span>
             </div>
-            <button className='btn-get-started-2a'>
+            <button className='btn-get-started-2a' onClick={handleChatbotNavigation}>
               <span className='get-start'>Get Start</span>
               <div className='icon-2b'>
                 <div className='group-2c' />

@@ -2,7 +2,6 @@ import React from "react";
 import "./index.css";
 import { Link } from "react-router-dom";
 
-
 function Header() {
   return (
     <div className="header">
@@ -29,12 +28,12 @@ function Header() {
               </Link>
             </div>
             <div className="solutions">
-              <Link to="/company">
+              <Link to="/chatbot">
                 <span className="company-recommendation">회사 추천</span>
               </Link>
             </div>
             <div className="resources">
-              <Link to="/company">
+              <Link to="/chatbot">
                 <span className="company-search">회사 검색 </span>
               </Link>
             </div>

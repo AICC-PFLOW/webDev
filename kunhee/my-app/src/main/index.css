@@ -288,8 +288,8 @@ button {
   flex-shrink: 0;
   gap: 10px;
   position: relative;
-  width: 126px;
-  height: 60px;
+  width: 30px;
+  height: 20px;
   padding: 16px 40px 16px 40px;
   background: #0554f2;
   z-index: 34;
